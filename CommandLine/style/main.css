@@ -1,0 +1,67 @@
+/**
+ * ===========================
+ * Your Style Goes Here
+ * ===========================
+**/
+
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+[data-ui="text"] a {
+	color: #00b8d4;
+}
+
+[data-ui="text"] code {
+	color: #4caf50;
+}
+
+#game [data-image] {
+	max-height: 30vh;
+	min-height: 10vmin;
+	max-width: 30vw;
+	padding: 0 2em;
+}
+
+@media (min-width: 600px) {
+  #game [data-image] {
+    min-height: 30vmin;
+  }
+}
+
+#game [data-image="root"], #game [data-image="mine"]{
+	max-height: 70vh;
+	max-width: 70vw;
+}
+
+body {
+    background: #000;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #fff;
+}
+
+[data-ui="choices"] button {
+	cursor: pointer;
+}
+
+[data-menu="main"] [data-action="start"], [data-menu="main"] [data-action="open-menu"] {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 2.5em;
+	padding: 0.2em;
+	color: #fff;
+}
+
+[data-ui="centered"] {
+	font-size: 5vmin;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#particles-js2 {
+	height: 100vh;
+}

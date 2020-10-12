@@ -1,0 +1,29 @@
+/**
+ * ===========================
+ * Your Style Goes Here
+ * ===========================
+**/
+
+#game [data-image] {
+	max-width: 50vw;
+	max-height: 50vh;
+}
+
+#game [data-ui="centered"] {
+	color: #fff;
+	font-size: 3vmax;
+}
+[data-menu="main"] {
+	color: #424242;
+	background:#fff;
+}
+[data-menu="main"] h1 {
+	font-size: 4em;
+}
+
+[data-action="start"] {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 2.5em;
+	padding: 0.2em;
+}
